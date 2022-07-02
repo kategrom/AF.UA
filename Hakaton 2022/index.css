@@ -1,0 +1,39 @@
+@import url(./css-files/header.css);
+@import url(./css-files/about.css);
+@import url(./css-files/company.css);
+@import url(./css-files/zacklyk.css);
+@import url(./css-files/footer.css);
+
+*{
+  box-sizing: border-box;
+}
+
+body , html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+ul , li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1280px;
+  margin: 0 auto;
+}

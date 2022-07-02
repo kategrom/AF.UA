@@ -1,0 +1,83 @@
+.company{
+  padding-top: 50px;
+}
+
+.work{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  letter-spacing: 0.03em;
+  color: black;
+
+  margin-bottom: 50px;
+}
+
+.work__container{
+  display: flex;
+}
+
+
+.work__title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  
+  color: #212121;    
+
+  width: 40%;
+
+  margin-right: 40px;
+}
+
+.work__description{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: rgb(43, 42, 45);
+
+  width: 60%;
+}
+
+@media screen and (max-width: 780px) {
+  .container{
+    max-width: 770px;
+  }
+
+  .work__title{
+    padding-left: 10px;
+  }
+
+  .work__description{
+    max-width: 45%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+ .container{
+  max-width: 480px;
+ }
+
+ .work{
+  font-size: 20px;
+ }
+
+ .work__container{
+  flex-direction: column;
+ }
+
+ .work__title{
+  max-width: 400px;
+  font-size: 14px;
+}
+
+ .work__description{
+  padding-left: 10px;
+  max-width: 100%;
+  font-size: 12px;
+}
+}
