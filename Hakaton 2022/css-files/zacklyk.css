@@ -107,7 +107,7 @@ form{
 @media screen and (max-width: 780px) {
 
   .zacklyk__container{
-    max-width: 760px;
+    max-width: 740px;
     padding: 10px;
     margin: 0 auto;
 
@@ -148,10 +148,12 @@ form{
 
   .zacklyk__title{
     max-width: 440px;
+    text-align: center;
   }
 
   .zacklyk__subtitle{
-    max-width: 440px;
+    width: 440px;
+    font-size: 12px;
   }
 
   .about__money{
